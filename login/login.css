@@ -14,6 +14,7 @@ body {
     background-size: cover; /* Faz a imagem cobrir todo o elemento */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-attachment: scroll;
 }
 
 .title {
