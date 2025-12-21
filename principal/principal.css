@@ -36,15 +36,17 @@ main {
     align-items: center;
     justify-content: center;
     height: 60vh;
+    width: 90vw;
+    margin: auto;
 }
 
 div.container{
     display: flex;
-    flex-flow: column;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    height: 80vh;
-    width: 700px;
+    height: 50vh;
+    width: 500px;
 }
 
 section.botao {
