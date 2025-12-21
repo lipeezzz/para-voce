@@ -31,7 +31,7 @@ div.m h2 {
 div.m { 
     border: 4px solid rgba(0, 0, 0, 0.192);
     border-radius: 10px;
-    width: 70vw;
+    width: 85vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,7 +41,7 @@ div.m {
 
 iframe {
     margin: 10px 0px;
-    width: 56.5vw;
+    width: 75vw;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.337);
 }
 
