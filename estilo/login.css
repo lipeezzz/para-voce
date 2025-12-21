@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagens/background-menu.png);
+    background-color: #C984B2;
+    height: 100vh;
+    width: 100vw;    
+    background-size: cover; /* Faz a imagem cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100vw;
+}
+
+.title  h1 {
+    margin: auto;
+    color: #bb4795;
+    text-shadow: 2px 1px 1px white;
+    font-size: 2.5em;
+    text-align: center; 
+    font-family: "Chicle", serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #daa7c9ae;
+    border: 5px solid #b5629985;
+    border-radius: 10px;
+    width: 60vw;
+    height: 50vh;
+    margin: auto;
+}
+
+.alogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 15vh;
+    border: 5px solid #B5629A;
+    border-radius: 10px;
+    background-color: #9E4280;
+    color: white;
+    text-decoration: none;
+    font-family: "Chicle", serif;
+    font-size: 1.5em;
+}
+
+.alogin:hover {
+ cursor: pointer;
+ background-color: #b562998e;
+ border: 5px solid#9e427f98;
+ color: #a93d85;
+}
+
+/* Media Query para telas grandes (desktops) */
+@media (min-width: 750px) {
+    /* 
+      Trava a largura máxima do container principal.
+      840px = 60% de 1400px (o ponto onde a trava começa).
+      Isso impede que ele continue crescendo em telas ultra-wide.
+    */
+    main {
+        max-width: 500px;
+    }
+
+    /* Trava também a largura do botão de login */
+    .alogin {
+        max-width: 300px; /* 40% de 750px */
+    }
+}

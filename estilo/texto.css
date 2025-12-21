@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chicle&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagens/background-texto.jpg);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #C984B2;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+main {
+    background-image: url(../imagens/folha-de-papel.jpg);
+    background-color: white;
+    width: 400px;
+    height: 603px;
+    margin: auto;
+}
+
+.paper h3 {
+    font-family: "Parisienne", cursive;
+    margin: 40px 0px 0px 20px;
+    font-size: 1.5em;
+}
+
+.paper p {
+    font-family: "Chicle", serif;
+    font-size: 0.9em;
+    text-align: justify;
+    margin: 0px 8px 0px 19px;
+    
+}
+
+.paper #agradecimento {
+    font-family: "Parisienne", cursive;
+    margin: 0px 0px 9px 220px;
+    font-size: 1em;
+}
+

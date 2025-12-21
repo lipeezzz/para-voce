@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagens/background\ rosa.avif);
+    background-color: #C984B2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30vh;
+    width: 100vw;
+    margin: auto;
+    color: #bb4795;
+    text-shadow: 2px 1px 1px white;
+    font-size: 2.5em;
+    text-align: center; 
+    font-family: "Chicle", serif;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+div.container{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+
+section.botao {
+    width: 200px;
+    height: 100px;
+    background-color: aliceblue;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #B5629A;
+    border-radius: 10px;
+    background-color: #9E4280;
+    color: white;
+    text-decoration: none;
+    font-family: "Chicle", serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+section.botao:hover {
+    cursor: pointer;
+    background-color: #b562998e;
+    border: 5px solid#9e427f98;
+    color: #a93d85;
+}
+
+section.botao a {
+    text-decoration: none;
+    color: white;
+
+}
