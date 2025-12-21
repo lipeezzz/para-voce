@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
 }
 
@@ -46,7 +46,7 @@ div.container{
     justify-content: center;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 40vh;
     width: 100vw;
 }
 
@@ -79,4 +79,10 @@ section.botao a {
     text-decoration: none;
     color: white;
 
+}
+
+@media screen and (min-width: 800px) {
+    main {
+        width: 850px;
+    }
 }
