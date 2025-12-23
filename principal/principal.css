@@ -41,16 +41,16 @@ main {
 }
 
 div.container{
-    /*display: flex;
+    display: flex;
     flex-flow: wrap;
     justify-content: center;
     align-items: center;
-    justify-content: center;*/
-    display: grid;
+    justify-content: center;
+    /*display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 10px;*/
     height: 30vh;
-    width: 70vw;
+    width: 90vw;
     margin-bottom: 26vh;
 }
 
@@ -90,19 +90,20 @@ section.botao a {
 }
 
 
-@media screen and (max-width: 400px) {
+/*@media screen and (max-width: 400px) {
     section.botao {
         width: 160px;
         height: 95px;
         font-size: 1.5em;
     }
-}
-*/
+}*/
+
 @media screen and (min-width: 800px) {
     main {
         width: 850px;
     }
 }
+
 
 /*
     <section class="botao">
