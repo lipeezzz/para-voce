@@ -48,6 +48,7 @@ div.container{
     justify-content: center;
     height: 40vh;
     width: 100vw;
+    margin-bottom: 5vh;
 }
 
 section.botao {
@@ -81,9 +82,6 @@ section.botao a {
 
 }
 
-footer h1 {
-    color: rgba(255, 255, 255, 0);
-}
 
 @media screen and (max-width: 400px) {
     section.botao {
