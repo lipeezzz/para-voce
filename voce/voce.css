@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Knewave&family=Lumanosimo&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Knewave&family=Lumanosimo&family=Parisienne&family=Playwrite+BR:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #C984B2;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.367);
+    padding: 10px;
+    margin-bottom: 5vw;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Lumanosimo", cursive;
+    color: white;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 90vw;
+    margin: auto;
+    background-color: rgba(240, 255, 255, 0.286);
+    border-radius: 15px;
+    border: 3px solid rgba(255, 255, 255, 0.367);
+}
+
+div.container {
+    
+}
+
+div.container ul {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    
+}
+
+div.container li {
+    font-family: "Delius Swash Caps", cursive;
+    color: white;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.367);
+    padding: 10px;
+    margin-top: 5vw;
+}
+
+footer p {
+    font-family: "Delius Swash Caps", cursive;
+    color: white;
+    font-size: 1em;
+    text-align: justify;
+    padding-bottom: 6px;
+}
