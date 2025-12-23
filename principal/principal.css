@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 10vh;
+    height: 11vh;
     width: 100vw;
     margin: auto;
     color: #bb4795;
@@ -36,7 +36,7 @@ main {
     align-items: center;
     justify-content: center;
     height: 60vh;
-    width: 90vw;
+    width: 100vw;
     margin: auto;
 }
 
@@ -46,7 +46,7 @@ div.container{
     justify-content: center;
     align-items: center;
     justify-content: center;
-    height: 40vh;
+    height: 30vh;
     width: 100vw;
     margin-bottom: 6vh;
 }
