@@ -81,6 +81,10 @@ section.botao a {
 
 }
 
+footer h1 {
+    color: rgba(255, 255, 255, 0);
+}
+
 @media screen and (max-width: 400px) {
     section.botao {
         width: 160px;
