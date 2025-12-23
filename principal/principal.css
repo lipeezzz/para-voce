@@ -90,16 +90,11 @@ section.botao a {
 }
 
 
-/*@media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
     section.botao {
         width: 160px;
         height: 95px;
         font-size: 1.5em;
-    }
-
-    div.container {
-        width: 380px;
-        height: 30vh;
     }
 }
 */
