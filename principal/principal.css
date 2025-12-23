@@ -35,7 +35,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+    height: 70vh;
     width: 100vw;
     margin: auto;
 }
@@ -51,7 +51,7 @@ div.container{
     gap: 10px;
     height: 30vh;
     width: 70vw;
-    margin-bottom: 6vh;
+    margin-bottom: 26vh;
 }
 
 section.botao {
