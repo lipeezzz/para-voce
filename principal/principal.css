@@ -20,12 +20,12 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 20vh;
+    height: 10vh;
     width: 100vw;
-    margin: 0px;
+    margin-top: 0px;
     color: #bb4795;
     text-shadow: 2px 1px 1px white;
-    font-size: 1.8em;
+    font-size: 1.5em;
     text-align: center; 
     font-family: "Chicle", serif;
 
