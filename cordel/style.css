@@ -23,7 +23,7 @@ html, body{
 }
 
 header{
-    background-color: black;
+    background-color: rgba(255, 107, 216, 0.373);
     color: white;
     text-align: center;
 }
