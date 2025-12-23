@@ -90,7 +90,7 @@ section.botao a {
 }
 
 
-@media screen and (max-width: 400px) {
+/*@media screen and (max-width: 400px) {
     section.botao {
         width: 160px;
         height: 95px;
@@ -102,7 +102,7 @@ section.botao a {
         height: 30vh;
     }
 }
-
+*/
 @media screen and (min-width: 800px) {
     main {
         width: 850px;
