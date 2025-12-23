@@ -87,6 +87,10 @@ section.botao a {
         height: 95px;
         font-size: 1.5em;
     }
+
+    div.container {
+        width: 380px;
+    }
 }
 
 @media screen and (min-width: 800px) {
